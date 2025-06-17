@@ -13,7 +13,7 @@
   </p>
   <h2 align="center">TPAMI 2025</h2>
   <div align="center">
-    <img src="./media/first_pages-to-jpg-0001.jpg" alt="Logo" width="100%">
+    <img src="./all_result.jpg" alt="Logo" width="100%">
   </div>
 
 

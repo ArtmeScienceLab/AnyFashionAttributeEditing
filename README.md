@@ -16,6 +16,7 @@
   <div align="center">
     <img src="./Why.jpg" alt="Why" width="100%">
   </div>
+  
     Our main contributions are as follows:
 
 $\bullet$  We present the Any Fashion Editing Dataset (AFED), which contains 830K high-quality full-body fashion images from two domains.
@@ -24,7 +25,6 @@ $\bullet$ We propose Twin-Net, a GAN-based framework for high-quality fashion im
 
 $\bullet$ We design PairsPCA, a method that is capable of mining the clear mapping relationship between latent and semantic meanings consistently. 
 
-<br />
 <br />
 
 ## Quick View

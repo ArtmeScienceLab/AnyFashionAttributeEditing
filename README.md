@@ -21,6 +21,8 @@
 <br />
 
 ## Quick View
+This work focuses on `any' fashion attribute editing: 1) the ability to edit 78 fine-grained design attributes commonly observed in daily life; 2) the capability to modify desired attributes while keeping the rest components still; and 3) the flexibility to continuously edit on the edited image.
+
   <div align="center">
     <img src="./more_all.jpg" alt="Logo" width="100%">
   </div>

@@ -14,6 +14,14 @@
   <h2 align="center">TPAMI 2025</h2>
 
   <div align="center">
+    <img src="./all_result.jpg" alt="Why" width="100%">
+  </div>
+
+<br />
+
+## Quick View
+
+ <div align="center">
     <img src="./Why.jpg" alt="Why" width="100%">
   </div>
   
@@ -27,7 +35,6 @@ $\bullet$ We design PairsPCA, a method that is capable of mining the clear mappi
 
 <br />
 
-## Quick View
 This work focuses on `any' fashion attribute editing: 1) the ability to edit 78 fine-grained design attributes commonly observed in daily life; 2) the capability to modify desired attributes while keeping the rest components still; and 3) the flexibility to continuously edit on the edited image. Comprehensive experiments, including comparisons with ten state-of-the-art image inversion methods and four editing algorithms, demonstrate the effectiveness of our Twin-Net and editing algorithm.
 
   <div align="center">

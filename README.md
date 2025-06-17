@@ -21,7 +21,9 @@
 <br />
 
 ## Quick View
-
+  <div align="center">
+    <img src="./more_all.jpg" alt="Logo" width="100%">
+  </div>
 
 
 ## How to Use

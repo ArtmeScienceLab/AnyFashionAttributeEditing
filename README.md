@@ -17,7 +17,7 @@
     <img src="./Why.jpg" alt="Why" width="100%">
   </div>
   
-    Our main contributions are as follows:
+Our main contributions are as follows:
 
 $\bullet$  We present the Any Fashion Editing Dataset (AFED), which contains 830K high-quality full-body fashion images from two domains.
 

@@ -10,7 +10,7 @@
     <a href="https://github.com/flyywh"><strong>Wenhan Yang</strong></a>
     ·
     <a href="https://www.aidlab.hk/en/people-detail/prof-calvin-wong"><strong>Waikeung Wong</strong></a>
-  </p>
+
   <h2 align="center">TPAMI 2025</h2>
 
   <div align="center">

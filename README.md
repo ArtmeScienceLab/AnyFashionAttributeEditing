@@ -42,7 +42,7 @@ This work focuses on `any' fashion attribute editing: 1) the ability to edit 78 
   </div>
 
 ## Get Started
-The environment setting for GAN-based models is a relatively old version compared to the current diffusion model. We have compared our results with numerous baselines and written these codes under various environmental settings at different times, respectively. In the version uploaded, we have organised all the code within a single environment (**CUDA Toolkit version is 11.7, the operating system is 22.04, and the driver version is 570**) for ease usage. To ensure the code runs smoothly, we recommend following steps, which have been verified to work before uploading. If there are still some bugs, please refer to the original repositories of those baselines.
+The environment setting for GAN-based models is a relatively old version compared to the current diffusion model. We have compared our results with numerous baselines and written these codes under various environmental settings at different times, respectively. In the version uploaded, we have organised all the code within a single environment (**CUDA Toolkit version is 11.7, the operating system is 22.04, and the driver version is 570.133.07**) for ease usage. To ensure the code runs smoothly, we recommend following steps, which have been verified to work before uploading. If there are still some bugs, please refer to the original repositories of those baselines.
 
 Quick start:
 ```

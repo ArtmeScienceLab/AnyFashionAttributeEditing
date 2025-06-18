@@ -14,7 +14,7 @@
   <!-- <h2 align="center">TPAMI 2025</h2> -->
 
   <div align="center">
-    <img src="./all_result.jpg" alt="Why" width="100%">
+    <img src="./media/all_result.jpg" alt="Why" width="100%">
   </div>
 
 <br />
@@ -22,7 +22,7 @@
 ## Quick View
 
  <div align="center">
-    <img src="./Why.jpg" alt="Why" width="100%">
+    <img src="./media/Why.jpg" alt="Why" width="100%">
   </div>
   
 Our **main contributions** are as follows:
@@ -38,7 +38,7 @@ $\bullet$ We design PairsPCA, a method capable of consistently mining the clear 
 This work focuses on `any' fashion attribute editing: 1) the ability to edit 78 fine-grained design attributes commonly observed in daily life; 2) the capability to modify desired attributes while keeping the rest of the components still; and 3) the flexibility to continuously edit the edited image. Comprehensive experiments, including comparisons with ten state-of-the-art image inversion methods and four editing algorithms, demonstrate the effectiveness of our Twin-Net and editing algorithm.
 
   <div align="center">
-    <img src="./more_all.jpg" alt="Logo" width="100%">
+    <img src="./media/more_all.jpg" alt="Logo" width="100%">
   </div>
 
 ## Get Started
@@ -64,14 +64,25 @@ bash train.sh
 
 To test:
 ```
-bash test.sh
+python inference_pairpca_editing.py rate=0 reconstruction rate>0 editing
+```
+
+<br>
+
+Evaluation:
+```
+bash recon_metrics.sh msssim  lpips mse
+
+bash fid.sh
+
+bash kid.sh
 ```
 
 ## Resources
 -【[**Obtain AFED**](https://drive.google.com/drive/folders/1VTY9EseiB9WMNQVnvnYUouHYmbEajVny?usp=sharing)】The AFED dataset consists of three sub-datasets, as illustrated in the Figure below.  It includes 300,000 (a) solid-colour women's clothing sketches (AFED-S-Colour), 300,000 (b) printed men's clothing sketches (AFED-S-Print), and 230,000 (c) human fashion images (AFED-H-Product). For the AFED-S-Colour and AFED-S-Print, the data were generated using a mature pipeline [**AiDA**](https://www.aida.com.hk/), which was previously utilised to create full-body sketch images with fine-grained fashion attributes. Generating these sketches required approximately 250 hours on a single NVIDIA GeForce GTX 3090 GPU. Regarding the AFED-H-Product, we initially collected over 1,000,000 raw fashion images from the internet, encompassing various clothing styles and fine-grained attributes. The manual collection process is hindered by its slow pace and high costs. For reference, a team of four carried out this collection manually over a year, averaging 4,800 images per week.
 
 <div align="center">
-    <img src="./dataset.jpg" alt="Logo" width="100%">
+    <img src="./media/dataset.jpg" alt="Logo" width="100%">
   </div>
 
 -【[**Pretrained Models**](https://drive.google.com/drive/folders/1xzYaWQ1FZ3Q16Xw6UDS_HEVRp-PQbUth?usp=sharing)】A total of 14 baselines were compared, including seven GAN inversion methods, three diffusion-based editing methods, and four GAN-based attribute editing methods. We trained 27 models across three datasets, comprising StyleGAN models and models for eight GAN inversion methods (including Twin-Net). 

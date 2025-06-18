@@ -25,9 +25,9 @@
     <img src="./Why.jpg" alt="Why" width="100%">
   </div>
   
-Our main contributions are as follows:
+Our **main contributions** are as follows:
 
-$\bullet$  We present the Any Fashion Editing Dataset (AFED), which comprises 830,000 high-quality full-body fashion images from two distinct domains.
+$\bullet$ We present the Any Fashion Editing Dataset (AFED), which comprises 830,000 high-quality full-body fashion images from two distinct domains.
 
 $\bullet$ We propose Twin-Net, a GAN-based framework for high-quality fashion image inversion and editing.
 
@@ -41,19 +41,27 @@ This work focuses on `any' fashion attribute editing: 1) the ability to edit 78 
     <img src="./more_all.jpg" alt="Logo" width="100%">
   </div>
 
+## Get Started
 
 
-## How to Use
--【[**Obtain AFED**](https://drive.google.com/drive/)】 The AFED dataset consists of three sub-datasets, as illustrated in the Figure below.  It includes 300,000 (a) solid-colour women's clothing sketches (AFED-S-Colour), 300,000 (b) printed men's clothing sketches (AFED-S-Print), and 230,000 (c) human fashion images (AFED-H-Product). For the AFED-S-Colour and AFED-S-Print, the data were generated using a mature pipeline [**AiDA**](https://www.aida.com.hk/), which was previously utilised to create full-body sketch images with fine-grained fashion attributes. Generating these sketches required approximately 250 hours on a single NVIDIA GeForce GTX 3090 GPU. 
+
+## Resources Download
+-【[**Obtain AFED**](https://drive.google.com/drive/)】The AFED dataset consists of three sub-datasets, as illustrated in the Figure below.  It includes 300,000 (a) solid-colour women's clothing sketches (AFED-S-Colour), 300,000 (b) printed men's clothing sketches (AFED-S-Print), and 230,000 (c) human fashion images (AFED-H-Product). For the AFED-S-Colour and AFED-S-Print, the data were generated using a mature pipeline [**AiDA**](https://www.aida.com.hk/), which was previously utilised to create full-body sketch images with fine-grained fashion attributes. Generating these sketches required approximately 250 hours on a single NVIDIA GeForce GTX 3090 GPU. 
 
 <div align="center">
     <img src="./dataset.jpg" alt="Logo" width="100%">
   </div>
 
+-【[**Pretrained Models**](https://drive.google.com/drive/)】A total of 14 baselines were compared, including seven GAN inversion methods, three diffusion-based editing methods, and four GAN-based attribute editing methods. We trained 27 models across three datasets, comprising StyleGAN models and models for eight GAN inversion methods (including Twin-Net). 
+
 ## Citation
 ```bib
 
 ```
+
+## Acknowledgments
+
+This work is partially supported by the Laboratory for Artificial Intelligence in Design (Project Code: RP3-1), Innovation and Technology Fund, Hong Kong, SAR. This work is also partially supported by a grant from the Research Grants Council of the Hong Kong, SAR(Project No. PolyU/RGC Project PolyU 25211424).
 
 <br>
 

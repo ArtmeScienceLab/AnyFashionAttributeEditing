@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <p align="center">
   
-  <h1 align="center">Any Fashion Attribute Editing: Dataset and Pretrained Models</h1>
+  <h1 align="center">Any Fashion Attribute Editing: Dataset and Pretrained Models (TPAMI2025)</h1>
   <p align="center">
     <a href="https://github.com/FST-ZHUSHUMIN/"><strong>Shumin Zhu</strong></a>
     ·    
@@ -11,7 +11,7 @@
     ·
     <a href="https://www.aidlab.hk/en/people-detail/prof-calvin-wong"><strong>Waikeung Wong</strong></a>
   </p>
-  <h2 align="center">TPAMI 2025</h2>
+  <!-- <h2 align="center">TPAMI 2025</h2> -->
 
   <div align="center">
     <img src="./all_result.jpg" alt="Why" width="100%">

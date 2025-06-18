@@ -27,15 +27,15 @@
   
 Our main contributions are as follows:
 
-$\bullet$  We present the Any Fashion Editing Dataset (AFED), which contains 830K high-quality full-body fashion images from two domains.
+$\bullet$  We present the Any Fashion Editing Dataset (AFED), which comprises 830,000 high-quality full-body fashion images from two distinct domains.
 
 $\bullet$ We propose Twin-Net, a GAN-based framework for high-quality fashion image inversion and editing.
 
-$\bullet$ We design PairsPCA, a method that is capable of mining the clear mapping relationship between latent and semantic meanings consistently. 
+$\bullet$ We design PairsPCA, a method capable of consistently mining the clear mapping relationship between latent and semantic meanings. 
 
 <br />
 
-This work focuses on `any' fashion attribute editing: 1) the ability to edit 78 fine-grained design attributes commonly observed in daily life; 2) the capability to modify desired attributes while keeping the rest components still; and 3) the flexibility to continuously edit on the edited image. Comprehensive experiments, including comparisons with ten state-of-the-art image inversion methods and four editing algorithms, demonstrate the effectiveness of our Twin-Net and editing algorithm.
+This work focuses on `any' fashion attribute editing: 1) the ability to edit 78 fine-grained design attributes commonly observed in daily life; 2) the capability to modify desired attributes while keeping the rest of the components still; and 3) the flexibility to continuously edit the edited image. Comprehensive experiments, including comparisons with ten state-of-the-art image inversion methods and four editing algorithms, demonstrate the effectiveness of our Twin-Net and editing algorithm.
 
   <div align="center">
     <img src="./more_all.jpg" alt="Logo" width="100%">
@@ -44,7 +44,7 @@ This work focuses on `any' fashion attribute editing: 1) the ability to edit 78 
 
 
 ## How to Use
-- 【[**Obtain AFED**](https://drive.google.com/drive/)】 The AFED dataset consists of three sub-datasets, as illustrated in the Figure below.  It includes 300,000 (a) solid-color women's clothing sketches (AFED-S-Color), 300,000 (b) printed men's clothing sketches (AFED-S-Print), and 230,000 (c) human fashion images (AFED-H-Product). For the AFED-S-Color and AFED-S-Print, the data were generated using a mature pipeline - [**AiDA**](https://www.aida.com.hk/) previously utilized to create full-body sketch images with fine-grained fashion attributes. Generating these sketches required approximately 250 hours on a single NVIDIA GeForce GTX 3090 GPU. 
+-【[**Obtain AFED**](https://drive.google.com/drive/)】 The AFED dataset consists of three sub-datasets, as illustrated in the Figure below.  It includes 300,000 (a) solid-colour women's clothing sketches (AFED-S-Colour), 300,000 (b) printed men's clothing sketches (AFED-S-Print), and 230,000 (c) human fashion images (AFED-H-Product). For the AFED-S-Colour and AFED-S-Print, the data were generated using a mature pipeline([**AiDA**])(https://www.aida.com.hk/) previously utilised to create full-body sketch images with fine-grained fashion attributes. Generating these sketches required approximately 250 hours on a single NVIDIA GeForce GTX 3090 GPU. 
 
 <div align="center">
     <img src="./dataset.jpg" alt="Logo" width="100%">

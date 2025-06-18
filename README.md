@@ -42,7 +42,30 @@ This work focuses on `any' fashion attribute editing: 1) the ability to edit 78 
   </div>
 
 ## Get Started
-The environment setting for GAN-based models is a relatively old version compared to the current diffusion model. We have compared our results with numerous baselines and written these codes under various environmental settings at different times, respectively. In the version uploaded, we have organised all the code within a single environment (**CUDA Toolkit version is 11.7, the operating system is 22.04, and the driver version is 570**) for ease usage. To ensure the code runs smoothly, we recommend following the listed requirements, which have been verified to work before uploading. If there are still some bugs, please refer to the original repositories of those baselines.
+The environment setting for GAN-based models is a relatively old version compared to the current diffusion model. We have compared our results with numerous baselines and written these codes under various environmental settings at different times, respectively. In the version uploaded, we have organised all the code within a single environment (**CUDA Toolkit version is 11.7, the operating system is 22.04, and the driver version is 570**) for ease usage. To ensure the code runs smoothly, we recommend following steps, which have been verified to work before uploading. If there are still some bugs, please refer to the original repositories of those baselines.
+
+Quick start:
+```
+conda create -n twinnet python=3.8.20
+
+conda activate twinnet
+
+conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=11.1 -c pytorch -c conda-forge
+
+pip install matplotlib tensorboard opencv-python imageio
+```
+<br>
+
+To train:
+```
+bash train.sh
+```
+<br>
+
+To test:
+```
+bash test.sh
+```
 
 ## Resources
 -【[**Obtain AFED**](https://drive.google.com/drive/)】The AFED dataset consists of three sub-datasets, as illustrated in the Figure below.  It includes 300,000 (a) solid-colour women's clothing sketches (AFED-S-Colour), 300,000 (b) printed men's clothing sketches (AFED-S-Print), and 230,000 (c) human fashion images (AFED-H-Product). For the AFED-S-Colour and AFED-S-Print, the data were generated using a mature pipeline [**AiDA**](https://www.aida.com.hk/), which was previously utilised to create full-body sketch images with fine-grained fashion attributes. Generating these sketches required approximately 250 hours on a single NVIDIA GeForce GTX 3090 GPU. Regarding the AFED-H-Product, we initially collected over 1,000,000 raw fashion images from the internet, encompassing various clothing styles and fine-grained attributes. The manual collection process is hindered by its slow pace and high costs. For reference, a team of four carried out this collection manually over a year, averaging 4,800 images per week.
@@ -67,4 +90,3 @@ This work is partially supported by the [Laboratory for Artificial Intelligence 
 <br>
 
 
-<br>

@@ -44,8 +44,11 @@ This work focuses on `any' fashion attribute editing: 1) the ability to edit 78 
 
 
 ## How to Use
+- 【[**Obtain AFED**](https://drive.google.com/drive/)】 The AFED dataset consists of three sub-datasets, as illustrated in the Figure below.  It includes 300,000 (a) solid-color women's clothing sketches (AFED-S-Color), 300,000 (b) printed men's clothing sketches (AFED-S-Print), and 230,000 (c) human fashion images (AFED-H-Product). For the AFED-S-Color and AFED-S-Print, the data were generated using a mature pipeline\footnote{https://code-create.com.hk/aida/} previously utilized to create full-body sketch images with fine-grained fashion attributes. Generating these sketches required approximately 250 hours on a single NVIDIA GeForce GTX 3090 GPU. 
 
-
+<div align="center">
+    <img src="./dataset.jpg" alt="Logo" width="100%">
+  </div>
 
 ## Citation
 ```bib

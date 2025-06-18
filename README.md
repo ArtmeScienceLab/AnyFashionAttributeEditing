@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <p align="center">
   
-  <h1 align="center">Any Fashion Attribute Editing: Dataset and Pretrained Models (TPAMI2025)</h1>
+  <h1 align="center">Any Fashion Attribute Editing: Dataset and Pretrained Models (TPAMI 2025)</h1>
   <p align="center">
     <a href="https://github.com/FST-ZHUSHUMIN/"><strong>Shumin Zhu</strong></a>
     ·    
@@ -42,7 +42,7 @@ This work focuses on `any' fashion attribute editing: 1) the ability to edit 78 
   </div>
 
 ## Get Started
-
+The environment setting for GAN-based models is a relatively old version compared to the current diffusion model. We have compared our results with numerous baselines and written these codes under various environmental settings at different times, respectively. In the version uploaded, we have organised all the code within a single environment for ease of use. To ensure the code runs smoothly, we recommend following the listed requirements, which have been verified to work before uploading. If there are still some bugs, please refer to the original repositories of those baselines.
 
 
 ## Resources Download

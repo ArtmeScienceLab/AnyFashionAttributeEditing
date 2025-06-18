@@ -42,7 +42,7 @@ This work focuses on `any' fashion attribute editing: 1) the ability to edit 78 
   </div>
 
 ## Get Started
-The environment setting for GAN-based models is a relatively old version compared to the current diffusion model. We have compared our results with numerous baselines and written these codes under various environmental settings at different times, respectively. In the version uploaded, we have organised all the code within a single environment (**CUDA Toolkit version is 11.7, the operating system is 22.04, and the driver version is 570**) for ease of use. To ensure the code runs smoothly, we recommend following the listed requirements, which have been verified to work before uploading. If there are still some bugs, please refer to the original repositories of those baselines.
+The environment setting for GAN-based models is a relatively old version compared to the current diffusion model. We have compared our results with numerous baselines and written these codes under various environmental settings at different times, respectively. In the version uploaded, we have organised all the code within a single environment (**CUDA Toolkit version is 11.7, the operating system is 22.04, and the driver version is 570**) for ease usage. To ensure the code runs smoothly, we recommend following the listed requirements, which have been verified to work before uploading. If there are still some bugs, please refer to the original repositories of those baselines.
 
 ## Resources
 -【[**Obtain AFED**](https://drive.google.com/drive/)】The AFED dataset consists of three sub-datasets, as illustrated in the Figure below.  It includes 300,000 (a) solid-colour women's clothing sketches (AFED-S-Colour), 300,000 (b) printed men's clothing sketches (AFED-S-Print), and 230,000 (c) human fashion images (AFED-H-Product). For the AFED-S-Colour and AFED-S-Print, the data were generated using a mature pipeline [**AiDA**](https://www.aida.com.hk/), which was previously utilised to create full-body sketch images with fine-grained fashion attributes. Generating these sketches required approximately 250 hours on a single NVIDIA GeForce GTX 3090 GPU. Regarding the AFED-H-Product, we initially collected over 1,000,000 raw fashion images from the internet, encompassing various clothing styles and fine-grained attributes. The manual collection process is hindered by its slow pace and high costs. For reference, a team of four carried out this collection manually over a year, averaging 4,800 images per week.
@@ -53,9 +53,6 @@ The environment setting for GAN-based models is a relatively old version compare
 
 -【[**Pretrained Models**](https://drive.google.com/drive/)】A total of 14 baselines were compared, including seven GAN inversion methods, three diffusion-based editing methods, and four GAN-based attribute editing methods. We trained 27 models across three datasets, comprising StyleGAN models and models for eight GAN inversion methods (including Twin-Net). 
 
-
--【**Source Code**】A total of 14 baselines were compared, including seven GAN inversion methods, three diffusion-based editing methods, and four GAN-based attribute editing methods. We trained 27 models across three datasets, comprising StyleGAN models and models for eight GAN inversion methods (including Twin-Net). 
-
 ## Citation
 ```bib
 
@@ -65,7 +62,7 @@ The environment setting for GAN-based models is a relatively old version compare
 
 This implementation is built based on [StyleGAN2](https://github.com/NVlabs/stylegan2-ada-pytorch), [StyleGAN-Human](https://github.com/stylegan-human/StyleGAN-Human), [encoder4editing](https://github.com/omertov/encoder4editing), [HFGI](https://github.com/Tengfei-Wang/HFGI).
 
-This work is partially supported by the [Laboratory for Artificial Intelligence in Design(AiDLab)](https://www.aidlab.hk/en/)(Project Code: RP3-1), Innovation and Technology Fund, Hong Kong, SAR. This work is also partially supported by a grant from the Research Grants Council of the Hong Kong, SAR(Project No. PolyU/RGC Project PolyU 25211424).
+This work is partially supported by the [Laboratory for Artificial Intelligence in Design (AiDLab)](https://www.aidlab.hk/en/)(Project Code: RP3-1), Innovation and Technology Fund, Hong Kong, SAR. This work is also partially supported by a grant from the Research Grants Council of the Hong Kong, SAR(Project No. PolyU/RGC Project PolyU 25211424).
 
 <br>
 

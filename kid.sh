@@ -2,4 +2,4 @@
 REAL="" #Path to real images
 FAKE="" #Path to fake images
 
-python -m evaluation.fid.fid --paths $REAL $FAKE
+fidelity --gpu 0 --kid --kid-subset-size 30 --input1 $REAL --input2 $FAKE

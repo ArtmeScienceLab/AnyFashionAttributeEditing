@@ -89,7 +89,13 @@ bash kid.sh
 
 ## Citation
 ```bib
-
+@article{zhu2025any,
+  title={Any Fashion Attribute Editing: Dataset and Pretrained Models},
+  author={Zhu, Shumin and Zou, Xingxing and Yang, Wenhan and Wong, Wai Keung},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2025},
+  publisher={IEEE}
+}
 ```
 
 ## Acknowledgments
